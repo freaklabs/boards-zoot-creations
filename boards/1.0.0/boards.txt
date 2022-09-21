@@ -3,7 +3,7 @@ menu.ver=Version
 ##############################################################
 ## Illuminado System
 
-illuminado.name=Freaklabs Illuminado System
+illuminado.name=Zoot Illuminado System
 
 illuminado.upload.tool=arduino:avrdude
 illuminado.upload.protocol=arduino
