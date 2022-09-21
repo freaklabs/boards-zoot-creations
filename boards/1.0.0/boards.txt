@@ -1,0 +1,72 @@
+menu.ver=Version
+
+##############################################################
+## Illuminado System
+
+illuminado.name=Freaklabs Illuminado System
+
+illuminado.upload.tool=arduino:avrdude
+illuminado.upload.protocol=arduino
+
+illuminado.bootloader.tool=arduino:avrdude
+illuminado.bootloader.unlock_bits=0x3F
+illuminado.bootloader.lock_bits=0x0F
+
+illuminado.build.core=arduino:arduino
+illuminado.build.board=AVR_ILLUMINADO
+
+	## Illuminado EL Wire Receiver 3.3V, 8 MHz, w/ATMega328P
+	## ---------------------------------------------
+	illuminado.menu.ver.rcvr=Illuminado EL Wire Receiver
+
+	illuminado.menu.ver.rcvr.upload.maximum_size=28672
+	illuminado.menu.ver.rcvr.upload.maximum_data_size=2048
+	illuminado.menu.ver.rcvr.upload.speed=57600
+
+	illuminado.menu.ver.rcvr.bootloader.low_fuses=0xE2
+	illuminado.menu.ver.rcvr.bootloader.high_fuses=0xDA
+	illuminado.menu.ver.rcvr.bootloader.extended_fuses=0xFE
+	illuminado.menu.ver.rcvr.bootloader.file=atmega/ATmegaBOOT_168_atmega328_pro_8MHz.hex
+
+	illuminado.menu.ver.rcvr.build.f_cpu=8000000L
+	illuminado.menu.ver.rcvr.build.mcu=atmega328p
+	illuminado.menu.ver.rcvr.build.variant=illuminado-rx
+	illuminado.menu.ver.rcvr.build.board=ILLUMINADORX
+
+
+	## Illuminado EL Wire Receiver v1.3B 3.3V, 8 MHz, w/ATMega328P
+	## ---------------------------------------------
+	illuminado.menu.ver.rcvr2=Illuminado EL Wire Receiver v1.3B
+
+	illuminado.menu.ver.rcvr2.upload.maximum_size=28672
+	illuminado.menu.ver.rcvr2.upload.maximum_data_size=2048
+	illuminado.menu.ver.rcvr2.upload.speed=57600
+
+	illuminado.menu.ver.rcvr2.bootloader.low_fuses=0xFF
+	illuminado.menu.ver.rcvr2.bootloader.high_fuses=0xDA
+	illuminado.menu.ver.rcvr2.bootloader.extended_fuses=0xFE
+	illuminado.menu.ver.rcvr2.bootloader.file=optiboot/optiboot_freakduino328p8mhz.hex
+
+	illuminado.menu.ver.rcvr2.build.f_cpu=8000000L
+	illuminado.menu.ver.rcvr2.build.mcu=atmega328p
+	illuminado.menu.ver.rcvr2.build.variant=illuminado-rx2
+	illuminado.menu.ver.rcvr2.build.board=ILLUMINADORX2	
+
+	## Illuminado EL Wire Tranmitter 5.0V, 16 MHz, w/ATMega328P
+	## ---------------------------------------------
+	illuminado.menu.ver.transmitter=Illuminado EL Wire Transmitter
+
+	illuminado.menu.ver.transmitter.upload.maximum_size=32256
+	illuminado.menu.ver.transmitter.upload.maximum_data_size=2048
+	illuminado.menu.ver.transmitter.upload.speed=115200
+
+	illuminado.menu.ver.transmitter.bootloader.low_fuses=0xFF
+	illuminado.menu.ver.transmitter.bootloader.high_fuses=0xDE
+	illuminado.menu.ver.transmitter.bootloader.extended_fuses=0xFE
+	illuminado.menu.ver.transmitter.bootloader.file=optiboot/optiboot_atmega328.hex
+
+	illuminado.menu.ver.transmitter.build.f_cpu=16000000L
+	illuminado.menu.ver.transmitter.build.mcu=atmega328p
+	illuminado.menu.ver.transmitter.build.variant=illuminado-tx-328p
+	illuminado.menu.ver.transmitter.build.board=ILLUMINADOTX	
+

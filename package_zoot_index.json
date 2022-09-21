@@ -1,0 +1,39 @@
+{
+  "packages": [
+    {
+      "name": "Zoot Illuminado",
+      "maintainer": "Zoot Creations",
+      "websiteURL": "https://illuminado.org",
+      "email": "support@illuminado.org",
+      "platforms": 
+        {
+          "name": "Zoot Illuminado",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Illuminado",
+          "url": "https://raw.githubusercontent.com/freaklabs/boards-zoot-creations/master/boards/boards-zoot-v1.0.0.zip",
+          "archiveFileName": "boards-zoot-v1.0.0.zip",
+          "checksum": "SHA-256:2463cfef7e27f9edabe4984ac765bda00fc4cd04dd93afe6a99b8e92b3496f41",
+          "size": "99801",
+          "boards": [
+              {"name": "Illuminado Receiver"}, 
+              {"name": "Illuminado Receiver v1.3B"}, 
+              {"name": "Illuminado Transmitter"}
+          ]
+        },
+      "toolsDependencies": [
+        {
+          "packager": "arduino",
+          "name": "avr-gcc",
+          "version": "4.8.1-arduino5"
+        },
+        {
+          "packager": "arduino",
+          "name": "avrdude",
+          "version": "6.0.1-arduino5"
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
